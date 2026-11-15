@@ -1,0 +1,13 @@
+﻿{
+  "manifest_version": 3,
+  "name": "Marketplace Test Addon",
+  "version": "1.0.0",
+  "description": "Test addon voor de marketplace: zwevende knop + klein spelletje.",
+  "author": "MaxiTaxi",
+  "content_scripts": [
+    {
+      "matches": ["https://app.egodact.com/*"],
+      "js": ["sdk.js", "lib.js", "content.js"]
+    }
+  ]
+}
